@@ -82,7 +82,7 @@ namespace HelloWorld
 
         void Update()
         {
-            transform.position = Position.Value;
+            Position.Value = transform.position;
         }
     }
 }
@@ -447,7 +447,7 @@ https://github.com/Unity-Technologies/com.unity.multiplayer.samples.poc/tree/fea
 ```csharp
         void Update()
         {
-            transform.position = Position.Value;
+            Position.Value = transform.position;
         }
 ```
 </details>
